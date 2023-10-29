@@ -1,0 +1,13 @@
+//POST register user
+//api http://localhost:8080/order/user/register
+{
+    "userName": "user1",
+    "password": "password1"
+}
+
+//GET - get user by id
+// api http://localhost:8080/order/user/1
+
+//POST - login for username and password
+// api http://localhost:8080/order/user/login
+// response true/false

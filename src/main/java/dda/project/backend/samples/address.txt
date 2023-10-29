@@ -1,0 +1,13 @@
+//POST - add address
+// api : http://localhost:8080/order/address
+{
+    "housenumber": 4569,
+    "area": "kolkata",
+    "pincode": 560031
+}
+
+//GET - get address by id
+//api : http://localhost:8080/order/address/4
+
+//GET - get all address
+//api : http://localhost:8080/order/address

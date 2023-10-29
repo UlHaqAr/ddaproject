@@ -1,0 +1,19 @@
+//POST - add customer
+// need to have Address beforehand
+// api : http://localhost:8080/order/customer
+{
+    "age": 20,
+    "name": "custname2",
+    "phone": "98",
+    "address": {
+        "housenumber": 4568,
+        "area": "mumbai",
+        "pincode": 560071
+    }
+}
+
+//GET - get customer by id
+//api : http://localhost:8080/order/customer/id/2
+
+//GET - get customer by name
+//api : http://localhost:8080/order/customer/id/2

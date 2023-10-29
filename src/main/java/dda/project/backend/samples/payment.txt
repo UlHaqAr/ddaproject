@@ -1,0 +1,43 @@
+// POST - add payment
+// need to have USER, ORDER beforehand
+// api : http://localhost:8080/order/pay
+{
+    "amount": 4500,
+    "paystatus": 0,
+    "paytype": 1,
+    "user": {
+        "userName": "user1",
+        "password": "password1"
+    },
+    "order": {
+        "orderstatus": 2,
+        "ordertype": 1,
+        "user": {
+            "userName": "user1",
+            "password": "password1"
+        },
+        "orderdetail": {
+            "sender": {
+                "age": 20,
+                "name": "custname2",
+                "phone": "98",
+                "address": {
+                    "housenumber": 4568,
+                    "area": "mumbai",
+                    "pincode": 560071
+                }
+            },
+            "receiver": {
+                "age": 32,
+                "name": "custname",
+                "phone": "99",
+                "address": {
+                    "housenumber": 4567,
+                    "area": "delhi",
+                    "pincode": 560097
+                }
+            },
+            "totalamount": 1500
+        }
+    }
+}

@@ -1,0 +1,40 @@
+// GET - get orders for user id
+// api http://localhost:8080/order/orders/user/1
+
+// GET - order for order id
+// api : http://localhost:8080/order/orders/2
+
+// POST - add order
+// api : http://localhost:8080/order/orders
+// need to have Customer, OrderDetail, User beforehand
+{
+    "orderstatus": 2,
+    "ordertype": 1,
+    "user": {
+        "userName": "user1",
+        "password": "password1"
+    },
+    "orderdetail": {
+        "sender": {
+            "age": 20,
+            "name": "custname2",
+            "phone": "98",
+            "address": {
+                "housenumber": 4568,
+                "area": "mumbai",
+                "pincode": 560071
+            }
+        },
+        "receiver": {
+            "age": 32,
+            "name": "custname",
+            "phone": "99",
+            "address": {
+                "housenumber": 4567,
+                "area": "delhi",
+                "pincode": 560097
+            }
+        },
+        "totalamount": 1500
+    }
+}

@@ -1,0 +1,14 @@
+// POST add item
+// api http://localhost:8080/order/item
+{
+    "itemtype": 0,
+    "itemquantity": 11,
+    "itemname": "pencil",
+    "itemprice": 15
+}
+
+// GET all items
+http://localhost:8080/order/item
+
+// GET item by id
+http://localhost:8080/order/item/1

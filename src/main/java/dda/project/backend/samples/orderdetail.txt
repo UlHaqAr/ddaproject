@@ -1,0 +1,26 @@
+// POST - add order detail
+// need to have Address, Customer beforehand
+// api : http://localhost:8080/order/detail
+{
+        "sender": {
+            "age": 20,
+            "name": "custname2",
+            "phone": "98",
+            "address": {
+                "housenumber": 4568,
+                "area": "mumbai",
+                "pincode": 560071
+            }
+        },
+        "receiver": {
+            "age": 32,
+            "name": "custname",
+            "phone": "99",
+            "address": {
+                "housenumber": 4567,
+                "area": "delhi",
+                "pincode": 560097
+            }
+        },
+        "totalamount": 1500
+    }
